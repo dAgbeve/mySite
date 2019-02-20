@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/mySite.dir/main.cpp.o  -o mySite 
