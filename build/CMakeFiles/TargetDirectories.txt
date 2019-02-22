@@ -1,0 +1,4 @@
+/home/alovii/CLionProjects/mySite/build/CMakeFiles/rebuild_cache.dir
+/home/alovii/CLionProjects/mySite/build/CMakeFiles/edit_cache.dir
+/home/alovii/CLionProjects/mySite/build/CMakeFiles/mySiteIndex.dir
+/home/alovii/CLionProjects/mySite/build/CMakeFiles/mySitemain.dir

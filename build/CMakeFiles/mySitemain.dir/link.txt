@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/mySitemain.dir/main.cpp.o  -o mySitemain /usr/lib/libboost_system.so /usr/lib/libboost_filesystem.so /usr/lib/libboost_thread.so -lpthread /usr/lib/libboost_program_options.so /usr/lib/libboost_chrono.so /usr/lib/libboost_date_time.so /usr/lib/libboost_atomic.so -lwthttp -lwt 

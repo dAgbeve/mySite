@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alovii/CLionProjects/mySite/main.cpp
+Wt/WApplication.h
+-
+Wt/WBreak.h
+-
+Wt/WContainerWidget.h
+-
+Wt/WLineEdit.h
+-
+Wt/WPushButton.h
+-
+Wt/WText.h
+-
+

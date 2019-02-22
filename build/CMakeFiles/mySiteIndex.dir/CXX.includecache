@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alovii/CLionProjects/mySite/Index.cpp
+Index.h
+/home/alovii/CLionProjects/mySite/Index.h
+
+/home/alovii/CLionProjects/mySite/Index.h
+Wt/WApplication.h
+-
+Wt/WBreak.h
+-
+Wt/WContainerWidget.h
+-
+Wt/WText.h
+-
+iostream
+-
+
