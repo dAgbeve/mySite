@@ -29,8 +29,6 @@ public:
 
 private:
     string appName;
-    WText *about, *EducationandExperience, *SkillsandLanguages, *AwardsandInterests;
-    WImage *image;
 
 
 
@@ -65,10 +63,21 @@ MyWeb::MyWeb(const WEnvironment &env) : WApplication(env){
     AwardsAndInterests->setStyleClass("EducationSkillsAwards");
     AwardsAndInterests->setText("Awards & Interests");
 
-    // This is for the left colum, the big picture and all
+    // The Skeleton
 
     auto left_column = root()->addWidget(cpp14::make_unique<WContainerWidget>());
     left_column->setStyleClass("left-column");
+
+    auto right_column = root()->addWidget(cpp14::make_unique<WContainerWidget>());
+    right_column ->setStyleClass("right-column");
+
+    auto aboutPage = root()->addWidget(cpp14::make_unique<WContainerWidget>());
+    aboutPage->setStyleClass("about-page");
+
+    auto EducationandExperience = root()->addWidget(cpp14::make_unique<WContainerWidget>());
+    EducationandExperience->setStyleClass("educationandexperience");
+
+
 
     auto helloIM = left_column->addWidget(cpp14::make_unique<WText>());
     helloIM->setStyleClass("helloIM");
@@ -84,12 +93,10 @@ MyWeb::MyWeb(const WEnvironment &env) : WApplication(env){
 
     // this is for the right column
 
-    auto right_column = root()->addWidget(cpp14::make_unique<WContainerWidget>());
-    right_column ->setStyleClass("right-column");
 
 
     auto imageContainer = right_column->addWidget(cpp14::make_unique<WContainerWidget>());
-    auto image = imageContainer->addWidget(cpp14::make_unique<WImage>("image-1.jpg"));
+    auto image = imageContainer->addWidget(cpp14::make_unique<WImage>("myface.jpg"));
     image->setStyleClass("image-size");
 
     auto rightColumnName =right_column->addWidget(cpp14::make_unique<WText>());
@@ -107,13 +114,22 @@ MyWeb::MyWeb(const WEnvironment &env) : WApplication(env){
 
             //this is for the about page
 
-    auto aboutPage = root()->addWidget(cpp14::make_unique<WContainerWidget>());
-    aboutPage->setStyleClass("about-page");
+
     auto aboutAboutPage = aboutPage->addWidget(cpp14::make_unique<WText>());
-    aboutAboutPage ->setText("About");
     aboutAboutPage ->setStyleClass("about-About");
+    aboutAboutPage ->setText("About");
 
+    auto Mybackground = aboutPage->addWidget(cpp14::make_unique<WText>());
+    Mybackground ->setStyleClass("MyBackground");
+    Mybackground ->setText("MY BACKGROUND");
 
+    auto TextAboutMe = aboutPage->addWidget(cpp14::make_unique<WText>());
+    TextAboutMe->setStyleClass("TextAboutMe");
+    TextAboutMe->setText("<p>With a passion for business, social media, and all things marketing, "
+                         "I have both the skill set <br/> and professional background necessary to dive deep into the "
+                         "marketing world. As an <br/>upbeat, self-motivated team player with excellent communication, I envi"
+                         "sion an exciting <br/>future in the industry. Browse my site to see all that I h"
+                         "ave to offer</p>.");
 
 
 

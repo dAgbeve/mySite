@@ -53,15 +53,17 @@ body {
 .left-column {
     float: left;
     width: 75%;
-    background-image: url("image-1.jpg");
+    background-image: url("backgroundImage.jpg");
     background-size: 100% 750px;
     background-repeat: no-repeat;
+    filter: brightness(80%);
+    /*-webkit-filter: blur(8px);*/
     height: 650px;
 }
 
 .helloIM{
     float: left;
-    width: 100%;
+    width: 55%;
     margin-top: 400px;
     margin-left: 20%;
     font-family: "Futura Lt BT";
@@ -69,11 +71,12 @@ body {
     font-size: 24px;
     padding: 0;
     height: 25px;
+    filter: brightness(100%);
 }
 
 .Bigname{
     float: left;
-    width: 100%;
+    width: 75%;
     margin-left: 20%;
     font-family: "Playfair Display";
     font-weight: bold;
@@ -90,7 +93,7 @@ body {
     font-style: italic;
     color: white;
     font-size: 21px;
-    width:100% ;
+    width:55% ;
     margin-top: 30px;
 }
 
@@ -100,6 +103,7 @@ body {
     background-color: #6675ff;
     text-align: center;
     height: 650px;
+    margin-top: 0;
 }
 
 .right-column-name {
@@ -125,21 +129,62 @@ body {
 
 .about-page{
     float: left;
-    background-color: whitesmoke;
-    font-size: larger;
+    background-color: lightgrey;
     width: 100%;
     height: 500px;
+
+    /*border: 5px solid black;*/
 }
 
 .about-About{
     float: left;
-    width: 100%;
+    width: 80%;
     margin-top: 70px;
     margin-left: 20%;
     color: #6675ff;
     font-family: "Playfair Display";
     font-style: italic;
     font-size: 30px;
+    /*height: 35px;*/
+    /*border: 5px solid black;*/
+}
+
+.MyBackground{
+    float: left;
+    width: 80%;
+    margin-left: 20%;
+    /*border: 5px solid red;*/
+    margin-top: 20px;
+    font-family: "Futura Lt BT";
+    font-size: 18px;
+    letter-spacing: 2px;
+
+    color: #6675ff;
+}
+
+.TextAboutMe{
+    float: left;
+    width: 80%;
+    margin-left: 20%;
+    color: black;
+    font-family: "Futura Lt BT";
+    font-weight: lighter;
+    font-size: 22px;
+    margin-top: 30px;
+    line-height: 50px;
+
+    /*border: 5px solid violet;*/
+}
+
+
+.educationandexperience{
+    float: left;
+    width: 100%;
+    background-color: gainsboro;
+
+    height: 700px;
+
+    border: 5px solid black;
 }
 
 /*body,html{color:#20303c;*/
