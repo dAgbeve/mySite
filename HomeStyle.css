@@ -1,23 +1,8 @@
 
-/*body {*/
-    /*background-position: center center ;*/
-    /*background-image: url("../wt-app/image-1.jpg");*/
-/*}*/
-
-
-body {
-
+body{
     width: 100%;
     height: 100%;
     margin: 0;
-}
-
-.CSS-Home{
-    border-color: red;
-}
-.larger-font{
-    font-size: 400px;
-    color: red;
 }
 
 .image-size{
@@ -29,81 +14,114 @@ body {
 }
 
 .myweb-header{
-    float: left;
     background-color: #6675ff;
     width: 100%;
     height: 70px;
+    position: relative;
+
+    /*border: 5px solid crimson;*/
 }
-.header-text{
-    font-style: italic;
-    font-family: "Playfair Display";
-    font-size: 20px;
-    color: white;
-    padding-top: 30px;
+.containHeaderText{
+    margin-left: 20%;
+    margin-top: 30px;
+    width: 80%;
+    /*height: 60px;*/
+    /*border: .1px solid crimson;*/
+    position: absolute;
+
 }
 
 .about-header {
-    margin-left: 20%;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    font-style: italic;
+    /*color: black;*/
+    color: whitesmoke;
+    cursor: -webkit-grabbing; cursor: grabbing;
+    padding-top: 30px;
+
+
 }
 
 .EducationSkillsAwards{
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    color: whitesmoke;
+    cursor: -webkit-grabbing; cursor: grabbing;
 }
 
 .left-column {
-    float: left;
-    width: 75%;
+
+
+    width: 100%;
     background-image: url("backgroundImage.jpg");
-    background-size: 100% 750px;
-    background-repeat: no-repeat;
-    filter: brightness(80%);
-    /*-webkit-filter: blur(8px);*/
+    background-size: cover;
     height: 650px;
+
+    position: relative;
+
+    /*border: 5px solid black;*/
+
 }
 
 .helloIM{
-    float: left;
-    width: 55%;
-    margin-top: 400px;
-    margin-left: 20%;
+
+    top:  370px;
+    left: 10%;
     font-family: "Futura Lt BT";
     color: white;
-    font-size: 24px;
-    padding: 0;
+    font-size: 22px;
     height: 25px;
-    filter: brightness(100%);
+    position: absolute;
+    /*z-index: 5;*/
+
+    white-space: nowrap;
+
+    /*border: 5px solid black;*/
 }
 
 .Bigname{
-    float: left;
-    width: 75%;
-    margin-left: 20%;
     font-family: "Playfair Display";
     font-weight: bold;
-    font-size: 75px;
+    font-size: 88px;
     color: white;
-    padding: 0;
-    height: 80px;
+    height: 66px;
+    top: 385px;
+    left: 10%;
+    position: absolute;
+    white-space: nowrap;
+    /*border: 5px solid red;*/
 }
 .left_column_deg{
-    float: left;
-    margin-left: 20%;
-    margin-top: 30px;
+
+
+
     font-family: "Playfair Display";
     font-style: italic;
     color: white;
-    font-size: 21px;
-    width:55% ;
-    margin-top: 30px;
+    font-size: 18px;
+    top: 525px;
+    left: 10%;
+    white-space: nowrap;
+    position: absolute;
+    /*border: 5px solid black;*/
 }
 
 .right-column{
-    float: right;
+    left: 75%;
+    /*top: -620px;*/
+    /*float: right;*/
     width: 25%;
     background-color: #6675ff;
     text-align: center;
     height: 650px;
-    margin-top: 0;
+    /*margin-top: 0;*/
+    position: absolute;
+
+    /*border: 5px solid red;*/
 }
 
 .right-column-name {
@@ -128,11 +146,11 @@ body {
 }
 
 .about-page{
-    float: left;
+    /*float: left;*/
     background-color: lightgrey;
     width: 100%;
     height: 500px;
-
+    position: relative;
     /*border: 5px solid black;*/
 }
 
@@ -145,6 +163,7 @@ body {
     font-family: "Playfair Display";
     font-style: italic;
     font-size: 30px;
+    white-space: nowrap;
     /*height: 35px;*/
     /*border: 5px solid black;*/
 }
@@ -158,6 +177,8 @@ body {
     font-family: "Futura Lt BT";
     font-size: 18px;
     letter-spacing: 2px;
+
+    white-space: nowrap;
 
     color: #6675ff;
 }
@@ -173,6 +194,8 @@ body {
     margin-top: 30px;
     line-height: 50px;
 
+    white-space: nowrap;
+
     /*border: 5px solid violet;*/
 }
 
@@ -180,12 +203,210 @@ body {
 .educationandexperience{
     float: left;
     width: 100%;
-    background-color: gainsboro;
-
+    background-color: #D9DDDC;
     height: 700px;
 
-    border: 5px solid black;
+    /*border: 5px solid black;*/
 }
+
+.leftDivEEP{
+    float: left;
+    width: 50%;
+    /*border: 0.5px solid #6675ff;*/
+    height: 700px;
+    /*margin-left: 20%;*/
+}
+
+
+.rightDivEEP{
+    float: right;
+    width: 50%;
+    /*border: 0.5px solid #6675ff;*/
+    height: 700px;
+}
+
+.educationInleftDivEEP{
+    float: left;
+    /*width: 80%;*/
+    margin-top: 70px;
+    margin-left: 40%;
+    color: #6675ff;
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: 30px;
+    white-space: nowrap;
+    /*height: 35px;*/
+    /*border: 5px solid black;*/
+}
+.whatIlearnedInleftDivEEP{
+    float: left;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-family: "Futura Lt BT";
+    font-size: 18px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    color: #6675ff;
+}
+
+.educationDivYear{
+    float:  left;
+    margin-left: 40%;
+    margin-top: 50px;
+    font-family: "Futura Lt BT";
+    font-size: 18px;
+    letter-spacing: 2px;
+    white-space: pre-line;
+    color: #000;
+
+}
+
+.educationDivSchool{
+    float:  left;
+    margin-left: 40%;
+    margin-top: 10px;
+    font-family: "Futura Lt BT";
+    font-size: 16px;
+    letter-spacing: 2px;
+    white-space: pre-line;
+    color: dimgrey;
+
+}
+
+
+
+
+.experienceInrightDivEEP{
+
+    float: left;
+    width: 60%;
+    margin-top: 70px;
+    margin-left: 40px;
+    color: #6675ff;
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: 30px;
+    white-space: pre-line;
+    /*position: absolute;*/
+    /*border: .5px solid red*/
+
+}
+
+.whereIworkedInrightDivEEP{
+    float: left;
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: "Futura Lt BT";
+    font-size: 18px;
+    letter-spacing: 2px;
+    white-space: pre-line;
+    color: #6675ff;
+    /*position: absolute;*/
+    /*border: .5px solid red*/
+}
+
+.whereIworkedYear{
+    float: left;
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: "Futura Lt BT";
+    font-size: 18px;
+    letter-spacing: 2px;
+    white-space: pre-line;
+    color: black;
+    /*border: .5px solid red*/
+}
+
+.whereIworkedCompany{
+    float: left;
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: "Futura Lt BT";
+    font-size: 16px;
+    letter-spacing: 2px;
+    white-space: pre-line;
+    color: dimgrey;
+    /*border: .5px solid red*/
+
+}
+
+.SkLanguaes{
+    float: left;
+    width: 100%;
+    height: 1000px;
+    background-color: #D9DDDC;
+
+    border: .5px solid black;
+}
+.programmingLanguages{
+    float: left;
+    width: 80%;
+    margin-left: 20%;
+    color: #6675ff;
+    font-family: "Futura Lt BT";
+    font-weight: lighter;
+    font-size: 17px;
+    margin-top: 50px;
+    /*line-height: 50px;*/
+
+    white-space: pre-line;
+
+    /*border: 5px solid violet;*/
+}
+.listLanguages{
+    float: left;
+    width: 70%;
+    margin-left:21%;
+    color: black;
+    font-family: "Futura Lt BT";
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 20px;
+    /*line-height: 50px;*/
+
+    white-space: pre-line;
+
+    /*border: 5px solid violet;*/
+}
+
+.skillsEnum{
+    float: left;
+    width: 80%;
+    margin-left: 20%;
+    color: black;
+    font-family: monospace, serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 50px;
+    /*line-height: 50px;*/
+
+    white-space: pre-line;
+
+    /*border: 5px solid violet;*/
+}
+
+
+.HearFromYou {
+    float: left;
+    width: 100%;
+    height: 350px;
+    background-color: lightgrey;
+
+    /*border: .5px solid black;*/
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    height: 70px;
+    background-color: #6675ff;
+
+    /*border: .5px solid red;*/
+}
+
 
 /*body,html{color:#20303c;*/
     /*width:100%;*/
