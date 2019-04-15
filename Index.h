@@ -73,7 +73,7 @@ MyWeb::MyWeb(const WEnvironment &env) : WApplication(env){
 
     auto EducationAndExperience = containHeaderText->addWidget(cpp14::make_unique<WText>());
     EducationAndExperience->setStyleClass("EducationSkillsAwards");
-    EducationAndExperience->setText("Education & Experience");
+    EducationAndExperience->setText("Education &#38; Experience");
 
     EducationAndExperience->clicked().connect([&](const WMouseEvent&){
         root()->doJavaScript(
@@ -87,7 +87,7 @@ MyWeb::MyWeb(const WEnvironment &env) : WApplication(env){
 
     auto SkillsAndLanguages = containHeaderText->addWidget(cpp14::make_unique<WText>());
     SkillsAndLanguages->setStyleClass("EducationSkillsAwards");
-    SkillsAndLanguages->setText("Skills & Languages");
+    SkillsAndLanguages->setText("Skills &#38; Languages");
 
     SkillsAndLanguages->clicked().connect([&](const WMouseEvent&){
         root()->doJavaScript(
@@ -101,7 +101,7 @@ MyWeb::MyWeb(const WEnvironment &env) : WApplication(env){
 
     auto AwardsAndInterests = containHeaderText->addWidget(cpp14::make_unique<WText>());
     AwardsAndInterests->setStyleClass("EducationSkillsAwards");
-    AwardsAndInterests->setText("Awards & Interests");
+    AwardsAndInterests->setText("Awards &#38; Interests");
 
     AwardsAndInterests->clicked().connect([&](const WMouseEvent&){
         root()->doJavaScript(
@@ -171,7 +171,7 @@ MyWeb::MyWeb(const WEnvironment &env) : WApplication(env){
     MSc_CS->setStyleClass("right-column-name right-column-msc");
 
     auto email_rightColumn =right_column->addWidget(cpp14::make_unique<WText>());
-    email_rightColumn->setText("<p2>info@mysite.com <br/> 0039 320 029 6500 </p2>");
+    email_rightColumn->setText("<p2>info&#64;mysite.com <br/> 0039 320 029 6500 </p2>");
     email_rightColumn->setStyleClass("right-column-name email-rightColumn");
 
 
@@ -288,7 +288,7 @@ MyWeb::MyWeb(const WEnvironment &env) : WApplication(env){
 
     auto skillsAndLanguages = SkLanguaes->addWidget(cpp14::make_unique<WText>());
     skillsAndLanguages->setStyleClass("about-About");
-    skillsAndLanguages->setText("Skills & Languages");
+    skillsAndLanguages->setText("Skills &#38; Languages");
 
     auto whatIbringToTheTable = SkLanguaes->addWidget(cpp14::make_unique<WText>());
     whatIbringToTheTable->setStyleClass("MyBackground");
@@ -298,12 +298,12 @@ MyWeb::MyWeb(const WEnvironment &env) : WApplication(env){
     skillsEnum->setStyleClass("skillsEnum");
     skillsEnum->setText("<p> enum Skills {"
                         "Data Analysis"
-                        "Content Writing & Editing"
+                        "Content Writing &#38; Editing"
                         "}</p>");
 
     auto programmingLanguages = SkLanguaes->addWidget(cpp14::make_unique<WText>());
     programmingLanguages->setStyleClass("programmingLanguages");
-    programmingLanguages->setText("- PROGRAMMING LANGUAGES & TOOLS");
+    programmingLanguages->setText("- PROGRAMMING LANGUAGES &#38; TOOLS");
 
 
     auto listLanguages = SkLanguaes->addWidget(cpp14::make_unique<WText>());

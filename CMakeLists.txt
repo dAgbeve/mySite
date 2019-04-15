@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.13)
 project(mySite)
 
 set(CMAKE_CXX_STANDARD 11)
+include_directories(/usr/local/include)
+link_directories(/usr/local/lib)
 set(WT_CONNECTOR "wthttp" CACHE STRING "The connector used is wthttp")
 find_package(wt)
 find_package(Boost 1.69 COMPONENTS system filesystem thread program_options)
